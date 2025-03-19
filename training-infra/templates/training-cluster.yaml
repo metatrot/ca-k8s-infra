@@ -26,10 +26,10 @@ spec:
                 name: client
             resources:
               limits:
-                cpu: "4"
+                cpu: "6"
                 memory: "8G"
               requests:
-                cpu: "4"
+                cpu: "6"
                 memory: "8G"
             volumeMounts:
               - mountPath: /tmp/ray
@@ -57,10 +57,10 @@ spec:
                     command: ["/bin/sh","-c","ray stop"]
               resources:
                 limits:
-                  cpu: "2"
+                  cpu: "6"
                   memory: "6G"
                 requests:
-                  cpu: "2"
+                  cpu: "6"
                   memory: "6G"
               volumeMounts:
                 - mountPath: /tmp/ray

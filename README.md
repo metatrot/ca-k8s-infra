@@ -6,7 +6,7 @@ This repository contains Infrastructure as Code (IaC) and code definitions for t
 
 - Access to the Kubernetes cluster
 - `kubectl` configured with the correct context
-- `uv` package manager installed
+- `uv` package manager installed.
 
 ## Infrastructure
 
